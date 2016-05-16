@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href='http://fonts.googleapis.com/css?family=PT+Serif+Caption:400,400italic' rel='stylesheet' type='text/css'>
+
+<link rel="icon" href="images/logo1.ico" type="image/x-icon">
+<link rel="shortcut icon" href="images/logo1.ico" type="image/x-icon" />
+<!-- /////////////////////////////////////////////////////////// -->
+
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/StyleInscr.css" type="text/css" media="screen">
+
+<script type="text/javascript" src="js/jquery.js" ></script>
+<script type="text/javascript" src="js/jquery-1.7.1.min.js" ></script>
+<script type="text/javascript" src="js/superfish.js"></script>
+<script type="text/javascript" src="js/forms.js"></script>
+
+
+<!-- js Validation-->
+<script type="text/javascript" src="js/validation.js">
+</script>
+
+
+<title>Inscription</title>
+
+</head>
+<body>	
+<header>
+	<h1>
+		<a href="Index.php">
+			<img alt="" src="images/logo.png">
+		</a>
+	</h1>
+	<br/><br/><br/>	
+</header>	
+	
+<section id="content">
+  <div class="border-horiz"></div>
+  <div class="box-inscr">
+    
+    <h3>Inscription</h3>
+    
+    <form id="Inscr-form" action="InscReussi.php" method="post">
+      <fieldset>
+        <div>
+            
+            
+         <div class="coll-1">
+            <div class="form-txt">Nom:</div>
+	            <div class="padEsp">
+		            <label class="name" >
+		              <input id="name" class="input1" type="text" name="nom" size="50">
+		              <span class="error"></span>
+		              <span class="emptyName" ></span> 
+		              
+		            </label>
+	            </div>
+            <div class="clear"></div>
+          </div>
+          
+          
+          <div>
+            <div class="form-txt">Telephone:</div>
+             <div class="padEsp">
+	            <label class="phone">
+	              <input id="tel" class="input1" type="tel" name="tel" size="50">
+	              <span class="error"></span> 
+	              <span class="empty"></span> 
+	              
+	              
+	             </label>
+             </div>
+            <div class="clear"></div>
+          </div>
+          
+          
+          
+          <div>
+            <div class="form-txt">E-mail:</div>
+             <div class="padEsp">
+            <label class="email">
+              <input id="email" class="input1" type="email" name="email" size="50">
+              <span class="error"></span> 
+              <span class="empty"></span> 
+            </label>
+            </div>
+            <div class="clear"></div>
+          </div>
+          
+          
+           <div>
+            <div class="form-txt">Adresse (la livraison se fait à 7km de la pizzeria):</div>
+             <div class="padEsp">
+            <label class="adresse">
+              <input id="adresse" class="input1" name="adresse" size="50">
+              
+              <span class="error"></span> 
+              <span class="empty"></span> 
+            </label>
+            </div>
+            <div class="clear"></div>
+          </div>
+          
+          
+          <div>
+            <div class="form-txt">Mot de Passe:</div>
+             <div class="padEsp">
+	            <label class="pass">
+	              <input id="pass" class="input1" type="password" name="pass" size="50">
+	              <span class="error">*This field is required.</span>
+	              <span class="empty">*This field is required.</span>
+	              
+	               
+	            </label>
+            </div>
+            <div class="clear"></div>
+          </div>
+          
+          
+             <div>
+            <div class="form-txt">Confirmation de Mot de Passe:</div>
+            <div class="padEsp">
+            <label class="pass1">
+              <input id="pass1" class="input1" type="password" name="pass1" size="50">
+              <span class="error"></span>
+              <span class="empty"></span> 
+            </label>
+            </div>
+            <div class="clear"></div>
+          </div>
+        
+        </div>
+        
+        <div class="clear" ></div>
+        
+        <div class="btns"> 
+        	<input class="btn" value="Clear" type="reset" id="clear">
+        	<input class="btn" value="valider" type="submit" id="envoyer">
+        </div>
+        
+      </fieldset>
+    </form>
+  </div>
+  
+</section>
+
+
+
+
+<footer>
+ <div class="main">
+  	Follow us in :<br/>
+    <ul class="soc-list">
+      <li><a href="https://www.facebook.com/PizzaWinWin?fref=ts"><img alt="" src="images/icon-1.png"></a></li>
+      <li><a href="#"><img alt="" src="images/icon-3.png"></a></li>
+    </ul>
+    <div class="clear"></div>
+  </div>
+</footer>
+</body>
+</html>

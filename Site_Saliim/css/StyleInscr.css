@@ -1,0 +1,228 @@
+h3{
+	font-family: 'PT Serif Caption', serif;
+	font-weight:normal;
+	color:#343434;
+	font-size:35px;
+	line-height:38px;	
+	padding:33px 0 18px;
+	text-shadow:0 1px 2px #c5c2a9;
+}
+
+
+html, body {
+	height:100%;
+}
+header {	
+	padding:0;
+	position: relative;
+	z-index:99;
+	background:url(../images/tail-header.gif);
+}
+
+.border-horiz{
+	background:url(../images/border-horiz.gif) repeat-x 0  0;
+	height:0.5px;
+			}
+
+#content {
+	position:relative;
+}
+
+body {	
+	font-family: 'PT Serif Caption', serif;
+	font-size:14px;
+	line-height:24px;
+	color:#343434;
+	min-width:1020px;
+	background:url(../images/bg-body.gif) #e6e4d7;
+}
+
+footer {
+	position:relative;
+	padding:31px 0 20px;
+	background:url(../images/tail-bg-footer.gif) repeat-x 0 0;
+	
+}
+
+.box-inscr{
+	background:#fff;
+	width:940px;
+	margin:60px auto 0;
+	padding:0 40px 51px;
+	background:#fff;
+    border-radius:18px;
+    -moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	 box-shadow:0 0 3px #c5c2a9;
+	-moz-box-shadow: 0 0 3px #c5c2a9;
+	-webkit-box-shadow:0 0 3px #c5c2a9;
+}
+
+.form-txt{
+		padding-bottom:10px;
+		
+		}
+
+#Inscr-form {
+  position: relative;
+  vertical-align: top;
+  margin-left: 30px;
+  padding: 20px;
+}
+
+#Inscr-form .error,
+#Inscr-form .empty {
+  color: #f00;
+  font-size: 11px;
+  line-height: 1.27em;
+  display: none;
+  overflow: hidden;
+  margin-bottom: 5px;
+  padding: 2px 4px 6px;
+  float: left;
+}
+
+
+#Inscr-form label {
+  min-height: 54px;
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+  display: block;
+  /*float: inherit*/;
+  width: 100%;
+}
+
+#Inscr-form fieldset {
+  border: none;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+#Inscr-form .message {
+  min-height: 213px;
+  display: block;
+  width: 100%;
+}
+
+#Inscr-form .input1,
+#Inscr-form textarea
+{
+  font-family: 'PT Serif Caption', serif;
+  padding: 4px 12px 5px;
+  margin: 0;
+  font-size:14px;
+  display: block;
+  line-height: 24px !important;
+  color: #343434;
+  background: #e8e7de;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #d1cfbd;
+  box-shadow: none;
+  float: left;
+  height: 30px;
+}
+#Inscr-form .input1:hover{
+		background: appworkspace;
+		border-radius: 20px;
+	}
+.padEsp{
+	padding-left: 50px;
+	
+}
+
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+
+.btns {
+	overflow:hidden;
+	padding-left:370px
+	}
+.btns .btn{
+		margin-right:40px
+		}
+		
+		
+		
+.btn {
+	display:inline-block;
+	color:#fff;
+	padding:8px 40px;
+	border:1px solid black;
+	background:#db3222;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+    box-shadow:0 1px 2px #c5c2a9;
+	-moz-box-shadow: 0 1px 2px #c5c2a9;
+	-webkit-box-shadow:0 1px 2px #c5c2a9;
+}
+.btn:hover {
+	background:threedhighlight;
+	cursor: pointer;
+}
+
+h1 {
+	float:left;
+	display:block;
+	position:relative;
+	z-index:10;
+}
+
+
+.main {
+	margin: 0 auto;
+	position: relative;
+	width: 940px;
+	}
+	
+.soc-list {
+	float:left;	
+	display:block;
+	padding-left:100px
+}
+.soc-list li {
+	padding:0 5px 0 0;
+	float:left;
+}
+.soc-list li a {
+	display:block;
+	opacity:1;
+	background:url(../images/bg-body.gif);
+}
+.soc-list li a:hover{
+		opacity:0.7
+		}
+		
+		
+#Inscr-form .error,
+#Inscr-form .empty {
+  color: #f00;
+  font-size: 15px;
+  line-height: 1.27em;
+  display: none;
+  overflow: hidden;
+  margin-bottom: 5px;
+  padding: 2px 4px 6px;
+  float: left;
+  display: none;
+}
+
+#Inscr-form textarea { 
+	margin-left:50px;
+  height: 184px;
+  resize: none;
+  overflow: auto;
+  width:600px; 
+}

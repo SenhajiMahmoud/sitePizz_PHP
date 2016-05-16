@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href='http://fonts.googleapis.com/css?family=PT+Serif+Caption:400,400italic' rel='stylesheet' type='text/css'>
+<link rel="icon" href="images/logo1.ico" type="image/x-icon">
+<link rel="shortcut icon" href="images/logo1.ico" type="image/x-icon" />
+<!-- /////////////////////////////////////////////////////////// -->
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/StyleInscr.css" type="text/css" media="screen">
+
+
+<!--js-->
+<script type="text/javascript" src="js/jquery.js" ></script>
+<script type="text/javascript" src="js/jquery-1.7.1.min.js" ></script>
+
+
+
+
+<title>Commentaires</title>
+
+</head>
+<body>	
+<header>
+	<h1>
+		<a href="index.php">
+			<img alt="" src="images/logo.png">
+		</a>
+	</h1>
+	<br/><br/><br/>	
+</header>	
+	
+<section id="content">
+  <div class="border-horiz"></div>
+  <div class="box-inscr">
+    
+    <h3>Commentaire</h3>
+    
+    <form id="Inscr-form" action="AjoutComm.php" method="post">
+      	 <div class="coll-1">
+            <div class="form-txt">Nom:</div>
+	            <div class="padEsp">
+		            <label class="name" >
+		              <input id="name" class="input1" type="text" name="nom" size="50">
+		            </label>
+	            </div>
+            <div class="clear"></div>
+          </div>
+          
+          
+            <div class="form-txt">Email:</div>
+	            <div class="padEsp">
+		            <label class="email">
+		              <input id="email" class="input1" type="text" name="email" size="50">
+		            </label>
+	            </div>
+            <div class="clear"></div>
+          
+          <div>
+            <div class="form-txt">Message:</div>
+            <label class="message">
+              <textarea name="message"></textarea>
+            </label>
+            <div class="clear"></div>
+          </div>
+        <div class="clear"></div>
+          
+          <div class="btns"> 
+        	<input class="btn" value="Clear" type="reset">
+        	<input class="btn" value="valider" type="submit" id="envoyer">
+        </div>
+    </form>
+  </div>
+  
+</section>
+
+
+
+
+<footer>
+ <div class="main">
+  	Follow us in :<br/>
+    <ul class="soc-list">
+      <li><a href="https://www.facebook.com/PizzaWinWin?fref=ts"><img alt="" src="images/icon-1.png"></a></li>
+      <li><a href="#"><img alt="" src="images/icon-3.png"></a></li>
+    </ul>
+    <div class="clear"></div>
+  </div>
+</footer>
+</body>
+</html>

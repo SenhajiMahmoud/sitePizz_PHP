@@ -1,0 +1,1 @@
+INDEX VERSION 1.121+C:\wamp\www\siteOfficielSalim\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes

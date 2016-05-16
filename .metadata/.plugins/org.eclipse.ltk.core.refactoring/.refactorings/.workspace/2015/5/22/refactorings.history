@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Script project &apos;Site_Salim&apos; to &apos;Site_Saliim&apos;&#x0D;&#x0A;- Original element: &apos;Site_Salim&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Script project &apos;Site_Salim&apos;" flags="7" id="org.eclipse.dltk.ui.rename.script.project" input="=Site_Salim" name="Site_Saliim" references="true" stamp="1432509562116" version="1.0"/>
+</session>
